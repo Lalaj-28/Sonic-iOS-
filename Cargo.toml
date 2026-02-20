@@ -1,13 +1,8 @@
 [package]
 name = "auxilio_complete"
 version = "0.1.0"
-authors = ["Lalaj-28 <email@example.com>"]
+authors = ["Lalaj-28 <your-email@example.com>"]
 edition = "2018"
 
 [lib]
-crate-type = ["dylib"]
-
-[dependencies]
-
-[profile.release]
-opt-level = 3
+dynamics = "dylib"
